@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+body {
+  @apply bg-gray-50 text-gray-800 font-sans scroll-smooth;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-12 text-center relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute w-16 h-1 bg-indigo-600 -bottom-3 left-1/2 transform -translate-x-1/2;
+  }
+  
+  .project-card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl;
+  }
+}
