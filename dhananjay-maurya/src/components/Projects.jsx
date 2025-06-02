@@ -8,57 +8,44 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with payment integration and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      title: 'Green Cart E-Commerce Platform',
+      description: 'A full-featured e-commerce platform under development',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
       githubLink: '#',
       liveLink: '#',
-      category: 'fullstack'
+      category: 'fullstack',
+      image: 'src/assets/greencart.png'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A drag-and-drop task management application with real-time updates.',
-      technologies: ['React', 'Firebase', 'Tailwind CSS'],
+      title: 'EDoc+',
+      description: 'An online doctor appointment booking system with user-friendly interface.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
       githubLink: '#',
       liveLink: '#',
-      category: 'frontend'
+      category: 'Fullstack',
+      image: 'src/assets/edoc.png'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather information with 5-day forecast for any location worldwide.',
-      technologies: ['React', 'Weather API', 'Chart.js'],
+      title: 'PayX',
+      description: 'Payment App to leverage backend Skills for secure transactions and analytics.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
       githubLink: '#',
       liveLink: '#',
-      category: 'frontend'
+      category: 'frontend',
+      image: 'src/assets/payX.png'
     },
+
     {
       id: 4,
-      title: 'Content Management System',
-      description: 'Custom CMS for bloggers with markdown support and SEO optimization.',
-      technologies: ['Node.js', 'Express', 'MongoDB', 'React'],
-      githubLink: '#',
-      liveLink: '#',
-      category: 'fullstack'
-    },
-    {
-      id: 5,
-      title: 'Fitness Tracker',
-      description: 'Mobile-friendly fitness tracking application with workout plans and progress charts.',
-      technologies: ['React Native', 'Firebase', 'Redux'],
-      githubLink: '#',
-      liveLink: '#',
-      category: 'mobile'
-    },
-    {
-      id: 6,
       title: 'Portfolio Website',
       description: 'Personal portfolio website showcasing projects and skills.',
       technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
       githubLink: '#',
       liveLink: '#',
-      category: 'frontend'
+      category: 'frontend',
+      image: 'src/assets/portfolio.png'
     }
   ];
 
@@ -96,7 +83,7 @@ const Projects = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map(project => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard key={project.id} project={project}  />
           ))}
         </div>
       </div>

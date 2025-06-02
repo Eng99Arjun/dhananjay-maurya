@@ -32,7 +32,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {currentYear} Dhananjay Maurya. All rights reserved.</p>
-          <p className="mt-2">Designed and built with ❤️ using React & Tailwind CSS</p>
+          <p className="mt-2">Designed and built using React & Tailwind CSS</p>
         </div>
       </div>
     </footer>

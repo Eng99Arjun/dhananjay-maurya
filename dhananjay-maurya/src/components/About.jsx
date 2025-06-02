@@ -10,7 +10,13 @@ const About = () => {
         
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3 flex justify-center">
-            <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full max-w-xs h-80" />
+            <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full max-w-xs h-80" > 
+              <img 
+                src=".\src\assets\971.jpg" 
+                alt="Dhananjay Maurya" 
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
           </div>
           
           <div className="md:w-2/3">
@@ -19,7 +25,7 @@ const About = () => {
             </h3>
             <p className="text-gray-600 mb-6">
               I'm a passionate Full Stack Developer based in India, specializing in building exceptional 
-              digital experiences. With over 5 years of experience in web development, I've worked with 
+              digital experiences. With 1 year of experience in web development, I've worked with 
               startups and established companies to create web applications that are both beautiful and functional.
             </p>
             <p className="text-gray-600 mb-8">

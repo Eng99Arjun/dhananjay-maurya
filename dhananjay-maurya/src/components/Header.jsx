@@ -24,7 +24,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4 text-white '}`}>
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <a href="#hero" className="text-2xl font-bold text-indigo-600">Dhananjay</a>
         
@@ -34,7 +34,7 @@ const Header = () => {
             <a 
               key={link.name}
               href={link.href}
-              className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
+              className="text-indigo-700 hover:text-indigo-600 font-medium transition-colors"
             >
               {link.name}
             </a>

@@ -5,7 +5,13 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
-      <div className="bg-gray-200 border-2 border-dashed w-full h-48 rounded-t-xl" />
+      <div className="bg-gray-200 border-2 border-dashed w-full h-48 rounded-t-xl" >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover rounded mb-4"
+              />
+      </div>
       
       <div className="p-6">
         <div className="flex justify-between items-start mb-3">

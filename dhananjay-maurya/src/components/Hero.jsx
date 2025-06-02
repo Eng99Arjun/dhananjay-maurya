@@ -93,7 +93,7 @@ const Hero = () => {
           
           <div className="mt-12 flex justify-center space-x-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Eng99Arjun" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-indigo-800 hover:bg-indigo-700 w-12 h-12 rounded-full flex items-center justify-center transition duration-300 transform hover:scale-110"
@@ -102,7 +102,7 @@ const Hero = () => {
               <FaGithub size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/dhananjay-maurya-75b48624b/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-indigo-800 hover:bg-indigo-700 w-12 h-12 rounded-full flex items-center justify-center transition duration-300 transform hover:scale-110"
